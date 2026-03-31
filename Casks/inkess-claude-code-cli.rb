@@ -1,12 +1,12 @@
 cask "inkess-claude-code-cli" do
-  version "0.3.13"
+  version "0.3.14"
 
   if Hardware::CPU.arm?
     url "https://download.starapp.net/app-releases/Inkess%20Claude%20Code%20CLI-#{version}-arm64.dmg"
-    sha256 "d758dd45bb5dbb08695a9e647917a73370a5e03c26825b9c545e5dee273938ce"
+    sha256 "e751358eca125c44dae0f958b9d28eb83c335f61a2dd8a8b7b9454867cf4ac60"
   else
     url "https://download.starapp.net/app-releases/Inkess%20Claude%20Code%20CLI-#{version}.dmg"
-    sha256 "b3cb8f0b5f33487efb4ca4b2bdd137c74af0ab85d5d1dbb2ba179c51d4f49462"
+    sha256 "7695ed54b3cfb189eb3c0e261b9a229793f94c2e97585fa39c7a2bc894b6c62b"
   end
 
   name "Inkess Claude Code CLI"
