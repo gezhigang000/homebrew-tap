@@ -1,8 +1,8 @@
 cask "inkess-claude-code-pro" do
-  version "0.3.28"
+  version "0.3.30"
 
   url "https://download.starapp.net/pro-releases/Inkess%20Claude%20Code%20Pro-#{version}-arm64.dmg"
-  sha256 "77c6c0bcbe968ef3f3d92b9cd4db764309df09d641dc75d425397fc49c0b85b5"
+  sha256 "73aa8296f00b386e41572dafa06f461ea33ddde3bbe39cac69b841927874bc1f"
 
   name "Inkess Claude Code Pro"
   desc "Zero-config Claude Code desktop client for Inkess users"
