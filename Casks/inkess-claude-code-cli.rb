@@ -1,8 +1,8 @@
 cask "inkess-claude-code-cli" do
-  version "0.4.7"
+  version "0.4.8"
 
   url "https://download.starapp.net/app-releases/Inkess%20Claude%20Code%20CLI-#{version}-arm64.dmg"
-  sha256 "4866c013add4bcfd9b1d71fedeb4fdf3faa1d89aef46078f35ed7dae47e4b864"
+  sha256 "d9f15ea98c784adaf4ea924bf1bf8d9f468af224eaafd0de56b8144cfbe76a8e"
 
   name "Inkess Claude Code CLI"
   desc "Zero-config Claude Code desktop client for Inkess users"
