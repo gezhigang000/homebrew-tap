@@ -1,12 +1,12 @@
 cask "inkess-claude-code-pro" do
-  version "1.2.2"
+  version "1.2.7"
 
-  url "https://download.starapp.net/pro-releases/Inkess%20Claude%20Code%20Pro-#{version}-arm64.dmg"
-  sha256 "721b3f473f1cdc0e98fadb42a1011d7801b4ebdda3fbe045b1140cbf2018a4b3"
+  url "https://download.inkessai.com/pro-releases/Inkess%20Claude%20Code%20Pro-#{version}-arm64.dmg"
+  sha256 "2779da7d0378ec8e0978b85dd9a1e160b3d6a27cdeb9b71c8337c18ace267a97"
 
   name "Inkess Claude Code Pro"
   desc "Zero-config Claude Code desktop client for Inkess users"
-  homepage "https://llm.starapp.net"
+  homepage "https://llm.inkessai.com"
 
   app "Inkess Claude Code Pro.app"
 
