@@ -1,20 +1,14 @@
 cask "inkess-claude-code-cli" do
-  version "0.5.0"
+  version "0.5.1"
 
-  url "https://download.starapp.net/app-releases/Inkess%20Claude%20Code%20CLI-#{version}-arm64.dmg"
-  sha256 "3fa887b91b63b78225d022150476e958222026391fd8d9817aa1a5f03d5ec5ef"
+  url "https://download.inkessai.com/app-releases/Inkess%20Claude%20Code%20CLI-#{version}-arm64.dmg"
+  sha256 "875e6229916988bf68eecd977547023033dfb12c807decd2b892eae2a341bd44"
 
   name "Inkess Claude Code CLI"
   desc "Zero-config Claude Code desktop client for Inkess users"
-  homepage "https://llm.starapp.net"
+  homepage "https://llm.inkess.cc"
 
   app "Inkess Claude Code CLI.app"
 
   depends_on arch: :arm64
-
-  zap trash: [
-    "~/Library/Application Support/inkess-claude-code",
-    "~/Library/Preferences/com.inkess.claude-code.plist",
-    "~/Library/Logs/inkess-claude-code",
-  ]
 end
