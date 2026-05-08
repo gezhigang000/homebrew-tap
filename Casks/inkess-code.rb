@@ -1,7 +1,7 @@
 cask "inkess-code" do
   version "1.3.0"
 
-  url "https://download.inkessai.com/code-releases/InkessCode-#{version}-arm64.dmg"
+  url "https://download.inkessai.com/pro-releases/InkessCode-#{version}-arm64.dmg"
   sha256 "e49927957db8b672382772089570ea2a3398305a98400f1d269de7d3f66fa938"
 
   name "Inkess Code"
