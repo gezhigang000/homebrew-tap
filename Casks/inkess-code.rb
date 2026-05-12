@@ -1,8 +1,8 @@
 cask "inkess-code" do
-  version "1.3.3"
+  version "1.3.4"
 
   url "https://download.inkessai.com/pro-releases/InkessCode-#{version}-arm64.dmg"
-  sha256 "78fc39e01b48964819674ec2c870fe0526dcad5bb589736b6271e809368e46ea"
+  sha256 "f74a13475388592bf701faab09bc21340f302d7eab67b9df0915b70d5c186dd9"
 
   name "Inkess Code"
   desc "Zero-config Claude Code & Codex desktop client for Inkess users"
