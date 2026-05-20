@@ -1,8 +1,8 @@
 cask "inkess-code" do
-  version "1.4.7"
+  version "1.4.8"
 
   url "https://download.inkessai.com/pro-releases/InkessCode-#{version}-arm64.dmg"
-  sha256 "b41a6625aee50bd6eaba1da8ce3185fb92e784afb0f853d0c47a4ea38f828575"
+  sha256 "426fb104b98b77fbbf5908446c96af0994a3ff24d4cae867d6d90bdce316e199"
 
   name "Inkess Code"
   desc "Zero-config Claude Code & Codex desktop client for Inkess users"
@@ -14,9 +14,7 @@ cask "inkess-code" do
 
   zap trash: [
     "~/Library/Application Support/InkessCode",
-    "~/Library/Application Support/inkess-code",
     "~/Library/Preferences/com.inkess.code.plist",
     "~/Library/Logs/InkessCode",
-    "~/Library/Saved Application State/com.inkess.code.savedState",
   ]
 end
